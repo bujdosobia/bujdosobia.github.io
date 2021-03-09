@@ -1,0 +1,19 @@
+body {
+  background-color: #336699;
+}
+
+div{
+ background: white;
+  padding: 20px;
+  width: 400px;
+}
+
+h1{
+  background: red;
+  padding: 20px;
+}
+
+h2{
+ background: orange; 
+  margin: 30px;
+}

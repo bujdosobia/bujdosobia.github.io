@@ -1,0 +1,52 @@
+.container {
+  margin: auto;
+  width: 800px;
+}
+
+header {
+  background: aqua;
+  height: 50px;
+  border-radius: 9px;
+  margin-bottom: 5px;
+}
+
+content {
+  display: flex;
+}
+
+lside {
+  background: orange;
+  border-radius: 9px;
+  flex-grow: 1;
+}
+
+rside {
+  background: purple;
+  border-radius: 9px;
+  flex-grow: 1;
+}
+
+main {
+  background: red;
+  border-radius: 9px;
+  margin: 0 5px;
+  height: 500px;
+  flex-grow: 3;
+  position: relative;
+}
+
+.island {
+  background: black;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+footer {
+  background: blue;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 9px;
+}

@@ -1,0 +1,8 @@
+body{padding: 20px;}
+h1{  color:  red;}
+h2{  color: blue;}
+h3{  width: 500px;}
+ul {  list-style-type: square;}
+ol {list-style-type: upper-roman; style: underline;}
+.listtagcolor{color: purple;}
+.textunderline{text-decoration: underline;}

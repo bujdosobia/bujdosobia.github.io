@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Összetett Űrlap</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <fieldset><legend>Interesting application form &#128580</legend>
+    <fieldset><legend>What's your name?</legend>
+      <input type="text" id="name">
+    </fieldset>
+    <fieldset><legend>What's your favorite color?</legend>
+        <input type="checkbox" id="red" name="red" value="red"/>
+        <label for="red">Red</label><br>
+        <input type="checkbox" id="green" name="green" value="green"/>
+        <label for="green">Green</label><br>
+        <input type="checkbox" id="blue" name="blue" value="blue"/>
+        <label for="blue">Blue</label><br>
+        <input type="checkbox" id="other" name="other" value="other"/>
+        <label for="other">Other</label>
+        <input type="text" id="othercolor">
+    </fieldset>
+    <fieldset><legend>Would you like to become a developer?</legend>
+      <input type="radio" id="devq1" name="devq1" value="devq1"/>Yes<br> 
+      <input type="radio" id="devq2" name="devq2" value="devq2"/>Ano <br>
+      <input type="radio" id="devq2" name="devq2" value="devq2"/>Igen <br>
+      <input type="radio" id="devq3" name="devq3" value="devq3"/>是
+    </fieldset>
+    <fieldset><legend>Why would you like to become a developer?</legend>
+      <textarea name="why" id="why" cols="30" rows="6"></textarea>
+    </fieldset>
+    <button>Submit</button>
+  </fieldset>
+</form>
+<!-- partial -->
+  
+</body>
+</html>

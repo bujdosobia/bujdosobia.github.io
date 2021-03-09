@@ -1,0 +1,55 @@
+.itemgreen{
+  background-color: #3cb878;
+}
+.itemyellow{
+  background-color: #ffd62a;
+}
+.itempurple{
+  background-color: #b02afe;
+}
+
+.containerRow{
+  border: solid gray 1px;
+  padding: 5px;
+  width: 500px;  
+}
+.containerRow div{
+  justify-content: space-around;
+}
+.containerRow div div{
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+.containerBase {
+  display: flex;  
+}
+.containerRrew {
+  display: flex;  
+  flex-direction: row-reverse;
+}
+
+.container div{
+  display: flex;
+  }
+.containerCrew{
+  border: solid gray 1px;
+  padding: 5px;
+  width: 180px;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+.containerWrap{
+  border: solid gray 1px;
+  padding: 5px;
+  width: 350px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.container div div{
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}

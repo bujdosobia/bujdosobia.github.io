@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 400px;
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-size: cover;
+  position: relative;
+}
+header div {
+  position: absolute;
+  bottom: 30px;
+  left: 300px;
+  font-family: "Abril Fatface", cursive;
+  color: #222;
+}
+
+#p1 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 10px;
+}
+
+#p2 {
+  margin: 0;
+  font-size: 72px;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.baseStyle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 40px 0;
+}
+
+.baseStyle ul {
+  list-style-type: square;
+}
+
+.listStyle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#upperH3 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.bSp {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.bSh3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 0;
+}
+
+.bSh4 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  line-height: 0;
+}
+
+.bSh5 {
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 0;
+}
+
+.bSulSmall {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.banner {
+  height: 150px;
+  background: #333;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  position: relative;
+}
+
+.banner2 {
+  height: 150px;
+  background: #333;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  position: relative;
+}
+
+#b1Big {
+  font-size: 120px;
+  margin: 0;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+}
+
+.banner2 {
+  height: 200px;
+  background: #333;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  position: relative;
+}
+
+#b1 {
+  font-size: 120px;
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+#b2 {
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.hr {
+  height: 3px;
+  background: #333;
+  margin-bottom: 50px;
+}

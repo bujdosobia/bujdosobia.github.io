@@ -1,0 +1,111 @@
+body{
+    background: #ddd;
+}
+
+.header{
+    background: #369;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 32px;
+    position: fixed;
+}
+
+#htl{
+    margin-bottom: 40px;
+}
+
+#htr{
+    font-size: 12px;
+    margin-top: 50px;
+
+}
+.header a{
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.footer{
+    color: white;
+    background: #369;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+}
+
+.content{
+    margin-left: 20px;
+    position: absolute;
+    left: 160px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #567;
+}
+a:hover{
+    color: red;
+}
+legend{
+    font-size: 12px;
+    color: #369;
+}
+
+fieldset{
+    border-radius: 9px;
+    background: #eee;
+    border-color: #69c;
+}
+#fs1 {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+#fs1 div{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ddd;
+}
+
+#fs2{
+    margin: 5px 0;
+}
+#l1fs2{
+    display: flex;
+    justify-content: center;
+}
+#l1fs2 div{
+    border-radius: 5px;
+    background: #ddd;
+    padding: 15px;
+    margin: 5px;
+}
+#l2fs2{
+    display: flex;
+    justify-content: center;
+}
+#l2fs2 div{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ddd;
+}
+
+#fs3{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+#fs3 div{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ddd;
+}

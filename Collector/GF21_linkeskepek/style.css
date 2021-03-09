@@ -1,0 +1,41 @@
+#links a{
+  display: block;
+  color: green;
+	margin: 10px;
+  font-family: 'Sen', sans-serif;
+  font-size: 36px;
+}
+#links a:visited {color: lightgreen}
+#links a:active {color: red}
+#links a:hover {color: lime; text-decoration: none}
+
+#pics img{
+	width: 200px;
+	margin: 50px;
+}
+#pics img:hover {
+	width: 300px;
+	margin: 0;
+}
+
+main {
+	padding: 10px;
+	font-family: 'Sen', sans-serif;
+}
+main h1{
+	margin: 10px 0;	
+}
+main img{
+	width: 150px;
+	margin: 5px;
+}
+main div{
+	display: flex;
+}
+main section{
+	width: 200px;
+	text-align: center;
+}
+main a{
+	display: block;
+}

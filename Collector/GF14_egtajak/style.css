@@ -1,0 +1,52 @@
+div {
+  border: 9px solid #4285f4;
+  color: white;
+  width: 400px;
+}
+
+#north {
+  margin: 40px 0;
+  padding: 60px 0;
+  border: 9px solid #4285f4;
+  color: white;
+  width: 400px;
+}
+
+#south {
+  padding: 60px 0;
+  border: 9px solid #4285f4;
+  color: white;
+  width: 400px;
+}
+
+p {
+  text-align: center;
+  font-family: "Oi", cursive;
+  font-size: 36px;
+  margin: 0;
+  padding: 40px;
+}
+
+#second p {
+  text-align: center;
+  font-family: "Oi", cursive;
+  font-size: 36px;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.north {
+  background: #e67676;
+}
+
+.east {
+  background: #f2f062;
+}
+
+.south {
+  background: #a9e6e6;
+}
+
+.west {
+  background: #7692e4;
+}
