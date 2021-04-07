@@ -40,16 +40,16 @@ $('header').css( { "margin": "0 auto", "padding": "40px", "text-align": "center"
 $('#head').text('Picture Book')
 
 $('body').append(' <div id="bigPic" /> ')
-$('#bigPic').css( { "margin": "0 auto", "padding": "0 20px", "width": "600px", "display": "flex", "justify-content": "space-between", "align-items": "center", "position": "relative" } )
+$('#bigPic').css( { "margin": "0 auto", "padding": "0 20px", "width": "650px", "display": "flex", "justify-content": "space-between", "align-items": "center", "position": "relative" } )
 
 
 $('#bigPic').append(' <a href="#" class="arr" id="arrL" ><</a> ')
 
 
 $('#bigPic').append(' <img id="actPic" /> ')
-$('#actPic').css( { "width": "470px", "box-shadow": "0 0 15px 9px #369" } )
+$('#actPic').css( { "width": "530px", "box-shadow": "0 0 15px 9px #369" } )
 $('#bigPic').append(' <div id="actTxt" /> ')
-$('#actTxt').css( { "position": "absolute", "bottom": "0px", "left": "85px", "width": "450px", "height": "50px", "background": "black", "background": "rgba(0, 0, 0, 0.4)", "color": "#bbb", "padding": "10px", "font": "bold 10px Verdana" } )
+$('#actTxt').css( { "position": "absolute", "bottom": "0px", "left": "80px", "width": "510px", "height": "50px", "background": "black", "background": "rgba(0, 0, 0, 0.4)", "color": "#ccc", "padding": "10px", "font": "bold 10px Verdana" } )
 $('#actTxt').append(' <h1></h1> ')
 $('h1').css('margin', '0')
 $('#actTxt').append(' <p1></p1><br> ')
@@ -68,7 +68,7 @@ for (let i = 1; i < pics.length; i++) {
 
     $('#footer').append(' <img id=" ' + i + ' "  class="smallPic" src=" ' + pics[i].picSrc + ' " onclick="picQuery( parseInt(this.id) )" /> ')
     
-    $('.smallPic').css( { "margin": "15px", "box-shadow": "0 0 15px 10px #369", "width": "120px", "height": "70px" } )
+    $('.smallPic').css( { "margin": "15px", "box-shadow": "0 0 15px 10px #369", "width": "120px", "height": "80px" } )
     $('.smallPic').hover(
          function () { $(this).css( "box-shadow", "0 0 15px 10px green" )},
          function () { $(this).css( "box-shadow", "0 0 15px 10px #369" )}
