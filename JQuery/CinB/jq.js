@@ -58,7 +58,7 @@ function clockRefresh() {
     $("#calUDesk, #flipDesk, #calDDesk").css( divAlign ).css( divAlignRow )
     $("#calUDesk, #calDDesk").css( { "border":"solid lightgreen", "border-radius":"11px" } )
     $("#calUDesk").text( Y + " " +  monthNames[M] + " " + Dt + "." ).css( { "border-width":"5px 5px 1px 5px" } )
-    $("#calDDesk").text( " " + dayNames[0] + " " ).css( { "border-width":"1px 5px 5px 5px" } )
+    $("#calDDesk").text( " " + dayNames[Dy] + " " ).css( { "border-width":"1px 5px 5px 5px" } )
   
     $("#clockDesk").css( { "font-family":"Anton", "font-size":$("#flipDesk").width()/8, "font-weight":"bold" } )
     $("#flipDesk").css( { "font-family":"Anton", "font-size":$("#flipDesk").width()/3, "font-weight":"bold" } )
@@ -118,8 +118,8 @@ function clockRefresh() {
   
   $(" #dig3U, #dig2U, #dig1U, #dig0U, #dig3D, #dig2D, #dig1D, #dig0D ").css( { "border":"solid lightgreen", "border-radius":digUDborderRadius, "width":digUDWidth , "height":digUDHeight } )
   $(" #dig3U, #dig2U, #dig1U, #dig0U, #dig3D, #dig2D, #dig1D, #dig0D ").css( { "padding":"0", "padding-left":digUDpadding, "border-width":digUDborderWidth } )
-  $(" #dig3U, #dig2U, #dig1U, #dig0U ").css( { "position":"relative", "top":$("#dig0U").height() + $("#dig0U").height()/7, "border-bottom-width":"1px" } )
-  $(" #dig3D, #dig2D, #dig1D, #dig0D ").css( { "position":"relative", "bottom":$("#dig0U").height() + $("#dig0U").height()/7, "border-top-width":"1px" } )
+  $(" #dig3U, #dig2U, #dig1U, #dig0U ").css( { "position":"relative", "top":$("#dig0U").height() - $("#dig0U").height()/8, "border-bottom-width":"1px" } )
+  $(" #dig3D, #dig2D, #dig1D, #dig0D ").css( { "position":"relative", "bottom":$("#dig0U").height() - $("#dig0U").height()/8, "border-top-width":"1px" } )
   
   
   window.addEventListener("resize", (event) => {
