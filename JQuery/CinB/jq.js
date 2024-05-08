@@ -13,7 +13,7 @@ function clockRefresh() {
     M_10 = (m-m%10)/10
     M_1 = (m%10) 
   
-  monthNames = ["január", "február", "március", "április", "május", "június, "július", "augusztus", "szeptember", "október", "november", "december"]
+  monthNames = ["január", "február", "március", "április", "május", "június", "július", "augusztus", "szeptember", "október", "november", "december"]
   dayNames = ["VASÁRNAP", "HÉTFŐ", "KEDD", "SZERDA", "CSÜTÖRTÖK", "PÉNTEK", "SZOMBAT"]
   
   }
