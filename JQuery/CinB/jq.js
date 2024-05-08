@@ -47,7 +47,6 @@ function clockRefresh() {
    $("#clockDesk").css( { "width":$("#contener").width(), "height":$("#contener").height() - $("#footer").outerHeight() } ).css( divAlign )
   $("#clockDesk").css( { "box-shadow":" 0px 0px 20px 5px lightgreen inset", "border-radius":"15px" } )
   
-  /*-------------------------------------------------------
   
   if( xWindowSize <= yWindowSize ){
     $("#clockDesk").css(divAlignColumn)
@@ -121,7 +120,7 @@ function clockRefresh() {
   $(" #dig3U, #dig2U, #dig1U, #dig0U, #dig3D, #dig2D, #dig1D, #dig0D ").css( { "padding":"0", "padding-left":digUDpadding, "border-width":digUDborderWidth } )
   $(" #dig3U, #dig2U, #dig1U, #dig0U ").css( { "position":"relative", "top":$("#dig0U").height() + $("#dig0U").height()/7, "border-bottom-width":"1px" } )
   $(" #dig3D, #dig2D, #dig1D, #dig0D ").css( { "position":"relative", "bottom":$("#dig0U").height() + $("#dig0U").height()/7, "border-top-width":"1px" } )
-  */
+  
   
   window.addEventListener("resize", (event) => {
     winSize()
